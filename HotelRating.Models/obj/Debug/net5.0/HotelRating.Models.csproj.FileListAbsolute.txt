@@ -1,0 +1,12 @@
+D:\HotelRating\HotelRating\HotelRating.Models\bin\Debug\net5.0\HotelRating.Models.deps.json
+D:\HotelRating\HotelRating\HotelRating.Models\bin\Debug\net5.0\HotelRating.Models.dll
+D:\HotelRating\HotelRating\HotelRating.Models\bin\Debug\net5.0\ref\HotelRating.Models.dll
+D:\HotelRating\HotelRating\HotelRating.Models\bin\Debug\net5.0\HotelRating.Models.pdb
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.csproj.AssemblyReference.cache
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.AssemblyInfoInputs.cache
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.AssemblyInfo.cs
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.csproj.CoreCompileInputs.cache
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.dll
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\ref\HotelRating.Models.dll
+D:\HotelRating\HotelRating\HotelRating.Models\obj\Debug\net5.0\HotelRating.Models.pdb
