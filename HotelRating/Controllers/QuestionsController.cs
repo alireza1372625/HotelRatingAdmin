@@ -20,7 +20,7 @@ namespace HotelRating.Controllers
         }
 
         // GET: Questions
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? hotelId)
         {
             var applicationDbContext = _context.Questions.Include(q => q.Hotel);
             return View(await applicationDbContext.ToListAsync());
@@ -191,7 +191,8 @@ namespace HotelRating.Controllers
             {
                 _context.Questions.Update(question);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Questions", new { hotelId = question.HotelId });
+                return RedirectToAction(nameof(Index));
+                //return RedirectToAction("Questions", new { hotelId = question.HotelId });
             }
             return View(question);
         }

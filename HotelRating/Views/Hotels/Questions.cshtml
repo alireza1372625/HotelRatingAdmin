@@ -21,7 +21,8 @@
                     <td>@question.Text</td>
                     <td>@question.Type</td>
                     <td>
-                        <a asp-action="EditQuestion" asp-route-id="@question.Id">Edit</a>
+                        <a asp-controller="Questions" asp-action="EditQuestion" asp-route-id="@question.Id">Edit</a>
+
                         <form asp-action="DeleteQuestion" asp-route-id="@question.Id" method="post" style="display:inline;">
                             <button type="submit">Delete</button>
                         </form>

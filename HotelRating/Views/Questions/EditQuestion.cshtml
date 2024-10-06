@@ -4,8 +4,9 @@
 @{
     @model Question
     <h2>Edit Question</h2>
-    <form asp-action="EditQuestion" method="post">
+    <form asp-action="UpdateQuestion" method="post">
         <input type="hidden" name="Id" value="@Model.Id" />
+        <input type="hidden" name="HotelId" value="@Model.HotelId" /> <!-- اضافه کردن فیلد پنهان برای HotelId -->
         <label>Question Text:</label>
         <input type="text" name="Text" value="@Model.Text" required />
         <label>Question Type:</label>
