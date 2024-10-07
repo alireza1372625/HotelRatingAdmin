@@ -36,7 +36,8 @@ project.fragment.lock.json
 .vscode/settings.json
 .vscode/tasks.json
 .vscode/launch.json
-
+.vs/
+.vs/*
 # Rider directories
 .idea/
 .idea/
