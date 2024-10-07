@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\N.Ayinevand\\.nuget\\packages\\": {},
+    "C:\\Users\\halir\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NavidAeineand\\SelfProjects\\HotelRatingAdmin\\HotelRating.Models\\HotelRating.Models.csproj",
+      "projectUniqueName": "D:\\HotelRating\\HotelRating\\HotelRating.Models\\HotelRating.Models.csproj",
       "projectName": "HotelRating.Models",
-      "projectPath": "E:\\NavidAeineand\\SelfProjects\\HotelRatingAdmin\\HotelRating.Models\\HotelRating.Models.csproj",
-      "packagesPath": "C:\\Users\\N.Ayinevand\\.nuget\\packages\\",
-      "outputPath": "E:\\NavidAeineand\\SelfProjects\\HotelRatingAdmin\\HotelRating.Models\\obj\\",
+      "projectPath": "D:\\HotelRating\\HotelRating\\HotelRating.Models\\HotelRating.Models.csproj",
+      "packagesPath": "C:\\Users\\halir\\.nuget\\packages\\",
+      "outputPath": "D:\\HotelRating\\HotelRating\\HotelRating.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\N.Ayinevand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\halir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,8 +32,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://devops.etadbir.com/tfs/C_Tadbir/_packaging/Feed.SoftwareInfrastructure/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -45,11 +44,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,8 +55,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -71,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }
