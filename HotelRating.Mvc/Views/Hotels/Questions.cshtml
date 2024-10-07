@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model Hotel
+
+    <h2>Questions for @Model.Name</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Question</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var question in Model.Questions)
+            {
+                <tr>
+                    <td>@question.Text</td>
+                    <td>@question.Type</td>
+                    <td>
+                        <a asp-action="EditQuestion" asp-route-id="@question.Id">Edit</a>
+                        <form asp-action="DeleteQuestion" asp-route-id="@question.Id" method="post" style="display:inline;">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Add New Question</h3>
+    <form asp-action="AddQuestion" method="post">
+        <input type="hidden" name="hotelId" value="@Model.Id" />
+        <label>Question Text:</label>
+        <input type="text" name="Text" required />
+
+        <label>Question Type:</label>
+        <select name="Type" required>
+            <option value="Text">Text</option>
+            <option value="MultipleChoice">Multiple Choice</option>
+            <option value="YesNo">Yes/No</option>
+        </select>
+
+        <button type="submit">Add Question</button>
+    </form>
+
+}

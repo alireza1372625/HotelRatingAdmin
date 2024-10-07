@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vNTt04Cet9Sxhuv3mVDJmTNK15cP0I7D6W25h3sVV5D07Mxb76mjPc4O6bcbhP8TSXY7Av+Z4P7ILOLXPpjlEA==",
+  "dgSpecHash": "fjS5vrnwZhkhBnWjle0kiUjYLbE4d4htmBoDL6UsgCni3uotk4Nv2hIf2PCpmf/3WBNCv9lzDK+LZO6n3P3Ljg==",
   "success": true,
-  "projectFilePath": "E:\\NavidAeineand\\SelfProjects\\HotelRatingAdmin\\HotelRating.Models\\HotelRating.Models.csproj",
+  "projectFilePath": "E:\\NavidAeineand\\SelfProjects\\HotelRatingAdmin\\HotelRating.Models\\HotelRating.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

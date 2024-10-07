@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HotelRating.Models
+namespace HotelRating.ViewModel
 {
     public class Class1
     {

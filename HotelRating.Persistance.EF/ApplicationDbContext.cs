@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using HotelRating.Model.Models;
 using Microsoft.EntityFrameworkCore;
-using HotelRating.Models;
 
-namespace HotelRating.Context
+namespace HotelRating.Persistance.EF
 {
     public class ApplicationDbContext : DbContext
     {
